@@ -1,3 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap');
 @import 'tailwindcss';
+
+:root {
+  /* Brand primitives */
+  --brand-cyan: #00b4f0;
+  --brand-indigo: #343477;
+
+  /* Light theme */
+  --background: #f5f7fa;
+  --foreground: #111827;
+
+  --surface: #ffffff;
+  --surface-elevated: #e9edf3;
+  --surface-hover: #e2e7ef;
+  --border: #dce2ea;
+
+  --muted-foreground: #5e6b7d;
+
+  --primary: #007ba8;
+  --primary-hover: #006d96;
+  --primary-pressed: #005d80;
+  --primary-soft: #e0f5fc;
+  --primary-foreground: #ffffff;
+
+  --secondary: var(--brand-indigo);
+  --secondary-accent: #343477;
+  --secondary-soft: #eeeefa;
+  --secondary-foreground: #ffffff;
+
+  --success: #15803d;
+  --warning: #a16207;
+  --danger: #be123c;
+  --info: #2563eb;
+}
+
+.dark {
+  --background: #090b10;
+  --foreground: #f5f7fa;
+
+  --surface: #11151d;
+  --surface-elevated: #1b222e;
+  --surface-hover: #242d3a;
+  --border: #29323f;
+
+  --muted-foreground: #929baa;
+
+  --primary: var(--brand-cyan);
+  --primary-hover: #38c8ff;
+  --primary-pressed: #0095cc;
+  --primary-soft: #102c39;
+  --primary-foreground: #090b10;
+
+  --secondary-accent: #a5a5ec;
+  --secondary-soft: #1c1c35;
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #fb7185;
+  --info: #60a5fa;
+}
+
+html {
+     font-family: 'Manrope', 'Outfit', Arial, sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+}
