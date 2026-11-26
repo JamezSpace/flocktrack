@@ -2,7 +2,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { App } from './app/app';
 
-const MIN_SPLASH_DURATION = 3000;
+const MIN_SPLASH_DURATION = 4500;
 
 const startedAt =
   (window as Window & { splashStartedAt?: number })
